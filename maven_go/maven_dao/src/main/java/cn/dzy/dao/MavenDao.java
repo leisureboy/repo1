@@ -10,4 +10,7 @@ public interface MavenDao {
     Account findbyid(int id);
     //test
     List<Account> findAll();
+
+    void update();
+
 }
