@@ -12,5 +12,6 @@ public interface MavenDao {
     List<Account> findAll();
     //ojbk？
     void update();
+	//测试通知1
 
 }
